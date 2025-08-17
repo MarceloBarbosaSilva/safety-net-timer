@@ -2,27 +2,34 @@
   "name": "Safety Net - Gerenciador de Tempo",
   "short_name": "Safety Net",
   "description": "Gerenciador de tempo para pausas e compromissos com lembretes personalizáveis",
+  "id": "safety-net-timer",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1f2937",
   "orientation": "portrait",
+  "dir": "ltr",
+  "lang": "pt-BR",
   "icons": [
     {
-      "src": "/pwa-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
     },
     {
-      "src": "/pwa-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
     }
   ],
   "categories": ["productivity", "utilities"],
-  "lang": "pt-BR"
+
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
 }
 
 
