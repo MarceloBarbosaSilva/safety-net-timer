@@ -1,8 +1,29 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="512" height="512" rx="128" fill="#3B82F6"/>
-  <circle cx="256" cy="256" r="180" fill="none" stroke="white" stroke-width="20"/>
-  <circle cx="256" cy="256" r="140" fill="none" stroke="white" stroke-width="16" stroke-dasharray="440" stroke-dashoffset="220"/>
-  <circle cx="256" cy="256" r="100" fill="none" stroke="white" stroke-width="12" stroke-dasharray="314" stroke-dashoffset="157"/>
-  <circle cx="256" cy="256" r="60" fill="none" stroke="white" stroke-width="8" stroke-dasharray="188" stroke-dashoffset="94"/>
-  <circle cx="256" cy="256" r="20" fill="white"/>
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="#1F2937"/>
+  
+  <!-- Main timer circle -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#3B82F6" stroke-width="24"/>
+  
+  <!-- Progress circle (75% complete) -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#10B981" stroke-width="24" 
+          stroke-dasharray="1256" stroke-dashoffset="314" 
+          transform="rotate(-90 256 256)"/>
+  
+  <!-- Inner circles for alerts -->
+  <circle cx="256" cy="256" r="140" fill="none" stroke="#F59E0B" stroke-width="16" 
+          stroke-dasharray="879" stroke-dashoffset="220" 
+          transform="rotate(-90 256 256)"/>
+  
+  <circle cx="256" cy="256" r="80" fill="none" stroke="#EF4444" stroke-width="12" 
+          stroke-dasharray="502" stroke-dashoffset="125" 
+          transform="rotate(-90 256 256)"/>
+  
+  <!-- Center dot -->
+  <circle cx="256" cy="256" r="32" fill="#3B82F6"/>
+  
+  <!-- Safety net symbol -->
+  <path d="M 200 180 L 312 180 L 312 332 L 200 332 Z" fill="none" stroke="white" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M 200 200 L 312 200 M 200 220 L 312 220 M 200 240 L 312 240 M 200 260 L 312 260 M 200 280 L 312 280 M 200 300 L 312 300 M 200 320 L 312 320" 
+        stroke="white" stroke-width="4" opacity="0.6"/>
 </svg>
