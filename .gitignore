@@ -38,10 +38,7 @@ pids
 # Coverage directory used by tools like istanbul
 coverage/
 
-# Cordova
-safety-net-app/
-platforms/
-plugins/
+
 
 # Vercel
 .vercel

@@ -85,9 +85,14 @@ npm run build
 - **Exercícios**: Intervalos de treino
 - **Estudos**: Pausas programadas
 
-## 📱 APK
+## 📱 PWA (Progressive Web App)
 
-Para gerar APK:
+O app pode ser instalado como PWA no celular:
+1. Acesse a URL do deploy no navegador do celular
+2. Toque em "Adicionar à tela inicial"
+3. O app aparecerá na lista de aplicativos
+
+### 🎯 Para Gerar APK:
 1. Use [PWA Builder](https://www.pwabuilder.com/)
 2. Cole a URL do deploy
 3. Baixe o APK gerado
